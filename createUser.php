@@ -2,7 +2,6 @@
 include "partials/dbconnect.php";
 
 
-
 if ($_SERVER['REQUEST_METHOD'] == 'POST'){
     $email = $_POST['email'];
     $name = $_POST['name'];
